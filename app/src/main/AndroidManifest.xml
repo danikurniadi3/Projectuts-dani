@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Utsdani">
         <activity
-            android:name=".pesanancetak"
-            android:exported="false" />
+            android:name="com.example.utsdani.pesanancetak"
+            android:label="cetak hasil"
+            android:exported="true"
+            android:parentActivityName="com.example.utsdani.MainActivity"
+            />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.utsdani.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
