@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ABC FOOD APPS</string>
+    <string name="btn_ctk">Cetak Pesanan</string>
+    <string name="btn_kmbl">Hitung Kembalian</string>
+    <string name="btn_psn">Hitung Pesanan</string>
+    <string name="daftarmenu">MENU</string>
+    <string name="inputnama">Inputkan Nama Pelanggan</string>
+    <string name="jumlah">RP 0</string>
+    <string name="jumlahmakanan">JUMLAH :</string>
+    <string name="kembalian">Kembalian : </string>
+    <string name="menu1">Honey Garlic Chicken Rice</string>
+    <string name="menu2">Beef Burger</string>
+    <string name="menu3">Regular Fries</string>
+    <string name="menu4">Ice Cream Cone</string>
+    <string name="menu5">Flurry Oreo</string>
+    <string name="menu6">Fanta Float</string>
+    <string name="menumakanan">PILIH MAKANAN : </string>
+    <string name="menuminuman">PILIH MINUMAN : </string>
+    <string name="total">TOTAL :</string>
+</resources>

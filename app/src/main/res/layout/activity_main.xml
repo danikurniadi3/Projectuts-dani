@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/unnamed"
+        android:padding="20dp"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:autofillHints="name"
+            android:ems="17"
+            android:hint="@string/inputnama"
+            android:inputType="text"
+            android:maxLength="100"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/daftarmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_centerHorizontal="true"
+            android:text="@string/daftarmenu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/pilihmakanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/daftarmenu"
+            android:text="@string/menumakanan"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pilihmakanan"
+            android:text="@string/menu1"
+            android:textColor="@color/white" />
+
+
+        <EditText
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pilihmakanan"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:id="@+id/jml1" />
+
+        <CheckBox
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c1"
+            android:text="@string/menu2"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:id="@+id/jml2" />
+
+        <CheckBox
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c2"
+            android:text="@string/menu3"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="40dp"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c2"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:id="@+id/jml3" />
+
+
+        <TextView
+            android:id="@+id/pilihminuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c3"
+            android:layout_marginTop="20dp"
+            android:text="@string/menuminuman"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pilihminuman"
+            android:text="@string/menu4"
+            android:textColor="@color/white" />
+        <EditText
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pilihminuman"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:id="@+id/jml4" />
+
+
+        <CheckBox
+            android:id="@+id/c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c4"
+            android:text="@string/menu5"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/jml5"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c4"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center" />
+
+
+
+        <CheckBox
+            android:id="@+id/c6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c5"
+            android:text="@string/menu6"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c5"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/c1"
+            android:background="@color/white"
+            android:id="@+id/jml6" />
+
+
+
+        <Button
+            android:id="@+id/btn_psn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c6"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/stabilo"
+            android:text="@string/btn_psn"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
